@@ -1,0 +1,25 @@
+.basket {
+    min-width: 400px;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: wheat;
+    left: -400px;
+    top: 0;
+    position: fixed ;
+    transition: all ease-in-out 0.3s;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+    .books-basket {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       gap: 40px;
+    }
+}
+.active-basket {
+    left: 0;
+}
+
